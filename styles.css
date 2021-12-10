@@ -91,3 +91,50 @@ nav a {
   text-align: center;
   margin-top: 25px;
 }
+
+.products {
+  display: flex;
+  margin-top: 20px;
+  height: 50vh;
+}
+
+.product-card {
+  margin: 10px;
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.product-card h1 {
+  background-color: white;
+  opacity: 0.8;
+  width: 100%;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.front-bumper {
+  background-image: url("./images/front-bumper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.rear-bumper {
+  background-image: url("./images/rear-bumper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.spoiler {
+  background-image: url("./images/spoiler.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.exhaust {
+  background-image: url("./images/exhaust.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
