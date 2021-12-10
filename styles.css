@@ -63,3 +63,31 @@ nav a {
   margin: 0.5rem;
   color: gray;
 }
+
+.banner {
+  display: flex;
+  background-image: url("./images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.banner-card {
+  width: 500px;
+  height: 300px;
+  background-color: black;
+  color: whitesmoke;
+  margin: 100px auto;
+  opacity: 0.8;
+}
+
+.banner-card h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.banner-card p {
+  text-align: center;
+  margin-top: 25px;
+}
